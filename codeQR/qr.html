@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .contain{
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: #d1e1ef;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contain .card-QR{      
+            display: grid;
+            place-items: center;
+            width: 290px;
+            height: 400px;
+            padding: 25px 10px;
+            border-radius: 12px;
+            background-color: #fff;
+            box-shadow:  6px 5px 5px 5px #b8b8b8;
+        }
+
+        .card-QR img{
+            width: 246px;
+            height: 246px;
+            
+            border-radius: 10px;
+        }
+        
+        div{
+            margin-top: -3px;
+            height: 65%;
+            width: 85%;
+        }
+        .card-QR p{
+            font-size: 14px;
+            
+        }
+        h2{
+          font-size: 20px;  
+          
+        }
+    </style>
+</head>
+<body>
+    <main class="contain">
+        <article class="card-QR">
+                <img src="img/image-qr-code.png"    alt="">
+                
+                <div>
+                    <h2>Mejore sus habilidades de front-end mediante la creación de proyectos.</h2>
+                    <br>
+                    <p>Escanee el código QR para visitar Frontend Mentor y lleve sus habilidades de codificación al siguiente nivel.</p>
+                </div>
+        </article>
+    </main>
+</body>
+</html>
